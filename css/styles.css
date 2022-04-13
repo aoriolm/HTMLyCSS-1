@@ -1,0 +1,270 @@
+#main-content {
+    background: white;
+    width: 100%;
+    max-width: 850px;
+    margin: 20px auto;
+}
+
+p {
+	line-height: 135%;
+}
+
+/*
+ * Cabecera
+ */
+
+#pre-header {
+	background: rgb(0, 0, 0);
+	color: white;
+    height: 110px;
+}	
+
+#main-header {
+	width: 100%;
+	max-width: 850px;
+	margin: 20px auto;
+}
+
+#logo-header {
+	float: left;
+	padding: 15px 0 0 0;
+}
+		
+#logo-header .site-name {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 1.55em;
+	margin: 10px auto;
+}
+
+#logo-header .site-desc {
+	display: block;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 0.85em;
+	margin: 19px auto;
+}
+
+#logo-img {
+    float: right;
+	width: 12%;
+    background: url("/img/bg-img-header.png") no-repeat;
+	background-size: 85px 85px;
+	background-position: 10px 10px;
+	height: 115px;
+	margin: 2px auto;
+}
+
+/*
+ * Menu de navegacion
+ */
+
+#nav {
+	text-align: center;
+	font-size: 0.75em;
+}
+
+#nav li {
+    display: inline;
+	padding: 0 10px 0 10px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*
+ * Formateo de los enlaces
+ */
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	background-color: yellow;
+}
+
+a:visited {
+	color: green;
+}
+
+/*
+ * Cambia el color de la línea horizontal
+ */
+
+#hr-orange hr{
+	border: 1px solid orange;
+}
+
+/*
+ * Cambia el estilo de los h2
+ */
+
+h2 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 2.2em;
+}
+
+/*
+ * Cambia el estilo de la lista de descripción
+ */
+
+dt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 1.3em;
+	margin: 20px 0 10px 0;
+	
+}
+
+dd {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	line-height: 135%;
+}
+
+.mas{
+	max-width: 133px;
+}
+
+.orangeText{
+	display: inline;
+	color: orange;
+}
+
+.external {
+	display: inline;
+	float: right;
+	background: url("../img/external_link.svg") no-repeat;
+	width: 10px;
+	height: 10px;
+	margin-top: 5px;
+}
+
+#adaptaciones li {
+	font-family: 'Times New Roman', Georgia, Times, serif;
+	margin-bottom: 10px;
+	font-size: 0.9em;
+	line-height: 125%;
+}
+
+.wiki{
+	max-width: 318px;
+	font-size: 0.71em;
+}
+
+.external2 {
+	display: inline;
+	float: right;
+	background: url("../img/external_link.svg") no-repeat;
+	width: 9px;
+	height: 9px;
+	margin-top: 2px;
+}
+
+#center{
+	margin: auto;
+	width: 37%;
+	padding-top: 20px;
+}
+
+#main-footer {
+	text-align: center;
+	padding: 5px;
+	
+}
+#main-footer p {
+	margin: 0;
+}
+
+#imagen1{
+	height: 375px;
+	float: right;
+	margin-bottom: 10px;
+	
+}
+
+.pie1 {
+	text-align: right;
+	clear:both;
+}
+
+.wiki2{
+	display: inline;
+	font-size: 0.63em;
+}
+
+.try {
+	background-image: url(../img/external_link.svg);
+	background-repeat: no-repeat;
+	color: rgba(0, 0, 0, 0);
+	margin-left: 5px;
+}
+
+#h2cortado {
+	max-width: 550px;
+}
+
+#primero{
+	width: 85%;
+	line-height: 128%;
+	color: rgb(255, 123, 0);
+	font-size: 1.4em;
+	font-weight: 600;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.special{
+	font-size: 1.35em;
+	font-weight: 600;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.pie2 {
+	text-align: center;
+	}
+
+#imagen2 {
+	height: 565px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+#derecha1 {
+	display: block;
+	margin: 0 0 0 40px;
+}
+
+#derecha2 {
+	display: block;
+	padding: 5px 0px 0px 25px;
+	border-left: 3px solid grey;
+	font-size: 1.1em;
+	line-height: 150%;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#biografia1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+
+}
+
+#biografia1 .biografia2 {
+	text-align: center;
+	font-size: 0.7em;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#imagen3 {
+	height: 28px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
